@@ -21,6 +21,7 @@ async function loadUsersData(){
         userCardHolderElement.setAttribute('id','user' + user.id);
 
         userCardsContainerElement.append(userCardHolderElement);
+        //----
 
         //User Avatar
         let userCardAvatarElement = document.createElement('div');
@@ -31,6 +32,7 @@ async function loadUsersData(){
         userCardAvatarImgElement.setAttribute('src',user.imageSrc);
 
         userCardAvatarElement.append(userCardAvatarImgElement);
+        //----
 
         //User Info
         let userCardInfoElement = document.createElement('div');
@@ -40,6 +42,7 @@ async function loadUsersData(){
         userInfoNameElement.innerText = user.name + ' ' + user.surname;
 
         userCardInfoElement.append(userInfoNameElement);
+        //----
 
         //append all in card holder
         userCardsContainerElement.querySelector(`#user${user.id}`).append(userCardAvatarElement);
