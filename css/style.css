@@ -1,0 +1,42 @@
+body{
+    background-color: wheat;
+}
+
+.userCardsContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.userCardHolder{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin: 10px;
+    border: solid 1px rgba(255,206,96,0.91);
+    background-color: antiquewhite;
+}
+
+.userCardAvatar{
+    margin: 20px 40px 10px;
+    height: 128px;
+    width: 128px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: solid 5px rgba(255,206,96,0.95);
+    box-sizing: border-box;
+}
+.userCardAvatar > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.userCardInfo{
+    margin: 10px 20px 20px;
+}

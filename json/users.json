@@ -1,0 +1,38 @@
+[
+  {
+    "id": 0,
+    "name": "Рэй",
+    "surname": "Музика",
+    "imageSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ray_Muzyka_2011.jpg/274px-Ray_Muzyka_2011.jpg"
+  },
+  {
+    "id": 1,
+    "name": "Гейб",
+    "surname": "Ньюэлл",
+    "imageSrc": "http://upload.wikimedia.org/wikipedia/commons/5/59/Gabe_newell.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Хидэо",
+    "surname": "Кодзима",
+    "imageSrc": "http://upload.wikimedia.org/wikipedia/commons/b/b1/Kojima.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Дэн",
+    "surname": "Хаузер",
+    "imageSrc": "http://pics.livejournal.com/virrr/pic/0001gqc5"
+  },
+  {
+    "id": 4,
+    "name": "Клифф",
+    "surname": "Блежински",
+    "imageSrc": "http://upload.wikimedia.org/wikipedia/commons/2/21/CliffyB.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Сэм",
+    "surname": "Лэйк",
+    "imageSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Sam_Lake-MichaelF%C3%B6rtsch.jpg/271px-Sam_Lake-MichaelF%C3%B6rtsch.jpg"
+  }
+]
